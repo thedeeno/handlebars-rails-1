@@ -14,7 +14,7 @@ You need to add the following line to the file `app/assets/javascripts/applicati
 
 In your Gemfile, add this line:
 
-  gem "handlebars-rails"
+  gem 'handlebars-rails', :git => 'https://github.com/yabawock/handlebars-rails.git'
 
 Then run `bundle install`. You're done!
 
